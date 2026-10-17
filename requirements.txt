@@ -1,0 +1,9 @@
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+Pillow>=10.0.0
+# Chrome taklidi (TLS/JA3 + HTTP/2 parmak izi). Duvarlı platformlarda
+# (Instagram, TikTok) anonim profil kanıtı için GEREKLİ: normal Python
+# istemcisi Instagram'da duvar/kabuk alırken bu, gerçek profil sayfasını
+# (og:title = görünen ad) ve TikTok embed verisini (nickname) getirir.
+# Kurulu değilse uygulama çalışır, yalnızca bu doğrulama yolları devre dışı kalır.
+curl_cffi>=0.7.0

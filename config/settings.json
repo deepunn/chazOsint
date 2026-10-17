@@ -1,0 +1,22 @@
+{
+  "app_name": "CHAZ OSINT Enterprise",
+  "version": "4.4.0",
+  "timeout": 12,
+  "retries": 2,
+  "backoff": 0.8,
+  "cache_enabled": true,
+  "cache_ttl": 900,
+  "max_threads": 8,
+  "rate_min": 0.35,
+  "rate_max": 0.9,
+  "ai_threshold": 0.55,
+  "max_handle_variants": 12,
+  "max_wall_candidates": 3,
+  "loose_variants": true,
+  "public_verifiers": true,
+  "instagram_app_id": "936619743392459",
+  "alt_frontends": [],
+  "session_cookie_env": "OSINT_SESSION_COOKIES",
+  "session_cookie_file": "config/session_cookies.txt",
+  "log_level": "INFO"
+}

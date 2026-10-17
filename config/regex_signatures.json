@@ -1,0 +1,6 @@
+{
+  "twitter": "twitter\\.com\\/([A-Za-z0-9_]{1,15})",
+  "instagram": "instagram\\.com\\/([A-Za-z0-9_\\.]{1,30})",
+  "tiktok": "tiktok\\.com\\/@([A-Za-z0-9_\\.-]{2,24})",
+  "linkedin": "linkedin\\.com\\/in\\/([A-Za-z0-9\\-]+)"
+}
